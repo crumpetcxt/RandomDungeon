@@ -1,0 +1,12 @@
+name: RandomDungeon
+version: 1.0
+main: com.example.dungeongen.DungeonGenerator
+api-version: 1.20
+commands:
+  dungeon:
+    description: Generates a random dungeon below you
+    usage: /dungeon
+    permission: dungeon.generate
+permissions:
+  dungeon.generate:
+    default: op
